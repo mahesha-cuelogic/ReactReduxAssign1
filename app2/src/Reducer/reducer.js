@@ -23,6 +23,8 @@ const reducer = (state = initialState, action) => {
                 },
                 registered:true
          }
+	default:
+         return state;
      
      }
   };
